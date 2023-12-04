@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MapGen</title>
+
+    <link rel="stylesheet" type="text/css" href="./style.css"/>
+</head>
+<body>
+    <div id="total"></div>
+
+    <div class="inputs">
+        <p class="textSeed">
+            Seed: <input id="seed" type="number" vale="34" onchange="noiseSeed(parseFloat(document.querySelector('#seed').value));"/>
+        </p>
+    </div>
+
+
+    <script src="./Modules/p5/p5.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>

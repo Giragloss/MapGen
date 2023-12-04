@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.inputs {
+    position: absolute;
+    background-color: #a900ff;
+    width: 93%;
+    bottom: -19px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #fff;
+    left: 3.5%;
+    border-radius: 19px;
+    padding-bottom: 1%;
+}
+
+.inputs p input{
+    background-color: #0000;
+    border-style: solid;
+    border-color: #000;
+    border-width: 1px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+#total{
+    position: absolute;
+    width: 100%;
+    height: 101%;
+}
